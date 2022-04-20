@@ -1,4 +1,7 @@
 .App {
+  padding: 100px;
+}
+.heart {
   position: relative;
   width: "100%";
   height: 490px;
@@ -9,8 +12,8 @@
   border-radius: 10px;
 }
 
-.App::before,
-.App::after {
+.heart::before,
+.heart::after {
   content: "";
   position: absolute;
   top: 90;
@@ -19,14 +22,17 @@
   border-radius: 150px 150px 0 0;
   background: rgb(195, 8, 30);
 }
-.App::before {
+.heart::before {
   left: 700px;
   transform: rotate(-45deg);
   transform-origin: 0 100%;
 }
 
-.App::after {
+.heart::after {
   left:450px;
   transform: rotate(45deg);
   transform-origin: 100% 100%;
+}
+.styleCheckBox {
+  margin-left: 20px;
 }
