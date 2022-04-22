@@ -10,7 +10,7 @@ const data = [
 
 function CustomRadio() {
   const [checked,setChecked] = useState(3);
-console.log(checked);
+
   return (
     <div className='App'>
       {
