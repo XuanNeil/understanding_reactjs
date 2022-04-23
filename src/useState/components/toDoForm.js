@@ -10,7 +10,7 @@ const TodoForm = ({ onSumbit }) => {
         if (!onSumbit) return;
         const formValues = {
             title: value,
-            //...sau có trường khác thì điền thêm.
+            //...sau có trường khác thì add thêm.
         }
         onSumbit(formValues);
 
