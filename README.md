@@ -71,4 +71,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 ### Mind Map.
-[https://www.mindmeister.com/map/2265279070](Mind Map Hooks).
+[https://www.mindmeister.com/map/2265279070] (Mind Map Hooks).
