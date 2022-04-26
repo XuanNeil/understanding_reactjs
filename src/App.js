@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import Form from './useState/form';
+import FormDemo from './useState/form';
+
 
 
 function App() {
 
   return (
     <div className='App'>
-      <Form />
+      <FormDemo />
     </div>
   );
 }
