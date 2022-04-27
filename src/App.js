@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import FormDemo from './useState/form';
+import TodoComponent from './useState/form/Todo';
+
 
 
 
@@ -8,7 +9,7 @@ function App() {
 
   return (
     <div className='App'>
-      <FormDemo />
+      <TodoComponent />
     </div>
   );
 }
