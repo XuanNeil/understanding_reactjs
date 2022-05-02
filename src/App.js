@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import CustomHook from './customHooks';
+import ScrollImageCarousel from './useRef/scrollImageCarousel';
 
 function App() {
 
   return (
     <div className='App'>
-      <CustomHook />
+      <ScrollImageCarousel />
     </div>
   );
 }
