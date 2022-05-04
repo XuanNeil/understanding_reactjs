@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import ScrollImageCarousel from './useRef/scrollImageCarousel';
+import UpdateTitle from './useEffect/updateTitle';
 
 function App() {
 
   return (
     <div className='App'>
-      <ScrollImageCarousel />
+      <UpdateTitle />
     </div>
   );
 }
