@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import WidthScreen from './useEffect/widthScreen';
+import PreviousAvatar from './useEffect/previousAvatar';
 
 function App() {
 
   return (
     <div className='App'>
-      <WidthScreen />
+      <PreviousAvatar />
     </div>
   );
 }
