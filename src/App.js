@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import PreviousAvatar from './useEffect/previousAvatar';
+import DemoUseCallBack from './useCallback';
 
 function App() {
 
   return (
     <div className='App'>
-      <PreviousAvatar />
+      <DemoUseCallBack />
     </div>
   );
 }
