@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import DemoUseCallBack from './useCallback';
+import DemoUseMemo from './useMemo';
 
 function App() {
 
   return (
     <div className='App'>
-      <DemoUseCallBack />
+      <DemoUseMemo />
     </div>
   );
 }
