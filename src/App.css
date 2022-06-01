@@ -36,3 +36,7 @@
 .styleCheckBox {
   margin-left: 20px;
 }
+.dark {
+  color: #fff;
+  background-color: #333;
+}

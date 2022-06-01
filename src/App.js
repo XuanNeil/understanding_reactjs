@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import DemoUseMemo from './useMemo';
+import DemoContext from './useContext';
 
 function App() {
 
   return (
     <div className='App'>
-      <DemoUseMemo />
+      <DemoContext />
     </div>
   );
 }
