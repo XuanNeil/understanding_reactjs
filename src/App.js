@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import DemoContext from './useContext';
+import Counter from './useReducer';
 
 function App() {
 
   return (
     <div className='App'>
-      <DemoContext />
+      <Counter />
     </div>
   );
 }
