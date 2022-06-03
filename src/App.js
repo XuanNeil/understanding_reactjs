@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Counter from './useReducer';
+import Demo2 from './useImperativeHandle/Demo2';
 
 function App() {
 
   return (
     <div className='App'>
-      <Counter />
+      <Demo2 />
     </div>
   );
 }
